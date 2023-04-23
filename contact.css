@@ -1,0 +1,126 @@
+body{
+padding:0px;
+margin:0px;
+box-sizing:border-box;
+font-family: 'Schibsted Grotesk', sans-serif;
+text-decoration: none;
+background: black;
+background-size: cover;
+}
+
+
+nav{
+background-color:black;
+color: white;
+width: 100%;
+height: 30%; 
+padding: 1%;
+text-align: center;
+word-spacing:20px;
+}
+
+.menu{
+margin: 0;
+padding:8px;
+height: 21px;
+}
+
+.menu li{
+display: inline;
+}
+
+.button{
+font-size: 1em;
+font-style: none;
+color:white;
+padding: 8px;
+text-decoration: none;
+}
+
+.button:hover{
+background-color: grey;
+}
+
+
+
+section{
+.map{
+float:right;
+padding: 40px 50px 20px;
+margin: 0.4%;
+}
+
+
+.container{
+background: black;
+width:40%;
+height:40vh;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+jusitfy-content:center;
+align-items:center;
+}
+
+
+.container .contact-container{
+background: white;
+width:550px;
+border-radius:06px;
+margin: 40px;
+padding-left:20px;
+}
+
+.container .contact-container form{
+padding: 0.5rem;
+}
+
+.container .contact-container form input, textarea{
+width:95%;
+margin:05 px 0 0 10px;
+padding:7px 10px 7px;
+border:1px solid grey;
+font-size:1rem;
+opacity:60%;
+}
+
+.container .contact-container h3{
+margin: 1.5rem;
+width: 55%;
+font-size: 20px;
+padding-top:10px;
+}
+
+.container .contact-container label{
+display: block;
+padding-top:15px;
+padding-left:20px;
+}
+
+.container .contact-container button{
+margin: 20px 10px;
+border:none;
+padding:10px 20px;
+background: black;
+color:white;
+font-size: 1rem;
+border-radius:05px;
+cursor:pointer;
+transition: all 0.3s;
+}
+
+.container .contact-container button-hover{
+color: grey;
+transition: 0.3s;
+}
+}
+
+
+footer{
+width: 100%;
+height: 30%; 
+background-color: black;
+color: white;
+text-align: center;
+padding:60px 10px;
+clear:right;
+}
